@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "nodejs 测试实例",
+  "main": "null",
+  "dependencies": {
+    "socket.io": "^1.4.2",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "formidable": "^1.0.17"
+  },
+  "devDependencies": {
+    "express": "^4.13.3",
+    "formidable": "^1.0.17",
+    "jade": "^1.11.0",
+    "socket.io": "^1.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

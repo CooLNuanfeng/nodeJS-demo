@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		meta(chartset="utf-8")
+		title Nodejs upload file
+		link(rel='stylesheet' href='static/style.css')
+	body
+		div#main_content
+			h1 #{user}请选择上传图片
+			div
+				form(action='/upload' enctype='multipart/form-data' method='post')
+					input(type='file' name='image')
+					input#upload(type='submit' value='上传图片')

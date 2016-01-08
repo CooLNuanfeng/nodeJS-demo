@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nodejs upload file</title>
+	<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+	<div id="main_content">
+		<h1>请选择图片上传</h1>
+		<div>
+			<form action="/upload" enctype="multipart/form-data" method="post">
+				<input type="file" name="image">
+				<input type="submit" id="upload" value="上传图片">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

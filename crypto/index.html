@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>加密</div>
+        <form action="/cipher" method="get">
+            key : <input type="text" name="key"><br>
+            plainText : <input type="text" name="plainText"><br>
+            <input type="submit" value="加密">
+        </form>
+    </div>
+    <div>
+        <div>解密</div>
+        <form action="/decipher" method="get">
+            key : <input type="text" name="key" value=""><br>
+            plainText : <input type="text" name="plainText"><br>
+            <input type="submit" value="解密">
+        </form>
+    </div>
+</body>
+</html>

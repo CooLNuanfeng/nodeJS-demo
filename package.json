@@ -13,6 +13,8 @@
     "express": "^4.13.3",
     "formidable": "^1.0.17",
     "jade": "^1.11.0",
+    "mongodb": "^2.1.4",
+    "mysql": "^2.10.2",
     "node-static": "^0.7.7",
     "routes": "^2.1.0",
     "socket.io": "^1.4.2"
